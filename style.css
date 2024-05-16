@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #9E9AA8;
+    text-decoration: none;
+}
+
+.head-btn button {
+    width: 105px;
+    height: 40px;
+    background: #2BD0D0;
+    border-radius: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    border: none;
+}
+
+.head-left {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+
+/* birinchi */
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 90px;
+    /* or 112% */
+    letter-spacing: -2px;
+    color: #34313D;
+    padding-top: 60px;
+}
+
+.bir-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+    letter-spacing: 0.15px;
+    color: #9E9AA8;
+    padding: 15px 0 40px;
+}
+
+.bir-btn button {
+    width: 197px;
+    height: 56px;
+    background: #2BD0D0;
+    border-radius: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    border: none;
+}
+
+.birinchi-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+
+.bir-left {
+    width: 565px;
+}
+
+
+/* ikkinchi */
+
+#ikkinchi {
+    height: 300px;
+    background: #543030;
+    position: relative;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    padding-top: 115px;
+}
+
+.ikki-btn button {
+    width: 197px;
+    height: 56px;
+    background: #2BD0D0;
+    border-radius: 28px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    border: none;
+}
+
+.ikki-btn {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* absolut */
+
+.absolute-input {
+    width: 1110px;
+    height: 168px;
+    background: #4B3F6B;
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -84px;
+}
+
+.abs-content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 168px;
+    align-items: center;
+}
+
+.input-div input {
+    padding-left: 30px;
+    width: 730px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    /* Shorten a link here. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    /* identical to box height, or 180% */
+    letter-spacing: 0.15px;
+    color: #34313D;
+    border: none;
+}
+
+.abs-btn button {
+    border: none;
+    background: #2BD0D0;
+    /* Group */
+    width: 188px;
+    height: 64px;
+    border-radius: 10px;
+    /* Shorten It! */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #232127;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
